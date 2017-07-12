@@ -1,0 +1,140 @@
+.certifica_wrapper {
+    display: inline-block !important;
+    width: auto !important;
+    height: auto !important;
+    overflow: hidden !important;
+    margin: 10px 0 !important;
+}
+
+.certificawp_popup_overlay_container {
+    display: none;
+}
+
+.certificawp_popup_overlay {
+    width: 100%;
+    background-color: #000;
+    opacity: 0.8;
+    -moz-opacity: 0.8;
+    filter: alpha(opacity=80);
+    display: block;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.certificawp_popup {
+    border: none;
+    background-color: white;
+    width: 600px;
+    min-height: 200px;
+    overflow: hidden;
+    height: auto;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-left: -300px;
+    margin-top: -100px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    padding: 20px;
+    font-size: 14px;
+    color: #444;
+    box-shadow: #333 1px 1px 10px;
+    z-index: 99999999999;
+}
+
+.cwp_footer {
+    width: 100%;
+    clear: both;
+    height: auto;
+    overflow: hidden;
+    display: block;
+}
+
+.left {
+    width: auto;
+    float: left;
+}
+
+.right {
+    width: auto;
+    float: right;
+}
+
+.right a,
+.right a:link {
+    color: #999;
+}
+
+.separator {
+    clear: both;
+    height: 1px;
+    margin: 15px 0;
+    width: 100%;
+    display: block;
+}
+
+.certificawp_popup > h1 {
+    font-weight: bold !important;
+    font-size: 20px !important;
+    margin: 0 !important;
+    padding-bottom: 15px !important;
+    display: block !important;
+}
+
+/*Generate*/
+
+.certificawp_btn_obter,
+.certificawp_btn_validar_submit,
+.certificawp_btn_download {
+    font-family: Arial, sans-serif !important;
+    font-size: 14px !important;
+    background-color: #1E88E5 !important;
+    border: none !important;
+    color: white !important;
+    display: inline-block !important;
+    padding: 8px !important;
+    -webkit-border-radius: 5px !important;
+    -moz-border-radius: 5px !important;
+    border-radius: 5px !important;
+    transition: all .1s ease-in-out !important;
+    -moz-transition: all .1s ease-in-out !important;
+    cursor: pointer !important;
+}
+.certificawp_btn_obter:hover,
+.certificawp_btn_validar_submit:hover {
+    background-color: #1976d2 !important;
+    color: white !important;
+    transition: all .1s ease-in-out !important;
+    -moz-transition: all .1s ease-in-out !important;
+}
+
+.certificawp_btn_validar_submit {
+    margin-top: 10px !important;
+    display: inline-block;
+}
+
+.certificawp_btn_download {
+    display: block;
+    clear: both;
+}
+
+/*Validator*/
+
+.certificawp_btn_validar {
+    font-family: Arial, sans-serif !important;
+    font-size: 14px !important;
+    display: inline-block !important;
+    padding: 10px !important;
+    background-color: #efefef !important;
+    color: #414141 !important;
+    -webkit-border-radius: 5px !important;
+    -moz-border-radius: 5px !important;
+    border-radius: 5px !important;
+    border: solid 3px #ccc !important;
+    width: auto !important;
+    min-width: 220px !important;
+    margin-bottom: 5px !important;
+}
